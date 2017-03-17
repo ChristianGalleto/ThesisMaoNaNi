@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list__user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.john.studentrecordrequest.List_User"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <TextView
+        android:text="List of Documents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView21"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="casual"
+        android:textStyle="normal|italic"
+        android:typeface="monospace"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="434dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text=  "\n  Transcript of Records\n  P 150.00\n
+                \n  Certificate of Good Moral Character\n  P 50.00\n
+                \n  Hon.Dismissal/Transfer Credential\n  P 50.00\n
+                \n  Temporary Grade Sheet\n  P 30.00\n
+                \n  Documentary Stamp for Transfer Purposes\n  P 30.00\n
+                \n  Documentary Stamp for Employment\n  P 15.00\n
+                \n  Re-issuance of Statement of Account\n  P 20.00\n
+                \n  Re-issuance of Exam Permit/Study Load\n  P 20.00\n
+                \n  Re-issuance of Clearance\n  P 10.00\n
+                \n  IHE/DCS/ADCS Local Diploma\n  P 100.00\n
+                \n  Certificate of Attendance\n  P 100.00\n
+                \n  Certificate of Enrollment\n  P 50.00\n
+                \n\n\n\n\nNote: *One week allowance upon request except TOR\n
+                \n*For other file request please see or contact school registrar\n\n
+
+                "
+
+                android:layout_width="match_parent"
+                android:layout_height="922dp"
+                android:id="@+id/textView2"
+                android:background="@drawable/textfield"
+                android:textAllCaps="false"
+                android:fontFamily="sans-serif" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

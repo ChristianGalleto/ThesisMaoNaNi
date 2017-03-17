@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layout_width="match_parent">
+
+
+    <TextView
+        android:id="@+id/custom_dialog_tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="How to Use this App?"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="1. You must enter your credentials.\n\n2. If you forgot your credentials just click the Forgot Account text found below the Login button, enter the information needed and check your email. If account information has received, you may now go back to this app and fill up and login.\n\n3. Click the Request Form button if you desired to request.\n\n4. When you will send your payment through deposit slip just click the Send Payment button.\n\n5. If you wished to view list of documents to be requested just click the List of Documents button.\n\n6. When you want to view your notifications just click the Notification button.\n\n7. In case you want to change your account details just press Account Settings.\n\n8. When you are done using this app just log out by pressing the Logout button.\n\n\n\nThank You for using this app!"
+                android:textColor="#bc3d3d3d"
+                android:textSize="18sp"
+                android:paddingTop="10dp"
+                android:layout_weight="0.38" />
+
+            <Button
+                android:id="@+id/custom_dialog_btn_done"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="Dismiss"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:layout_weight="0.26"
+                android:layout_width="match_parent" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

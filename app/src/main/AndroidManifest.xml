@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.john.studentrecordrequest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature
+        android:name="android.hardware.Camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ceclogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".First"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LogIn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home_User"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RequestForm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home_Registrar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Home_Cashier"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".History_Requester"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Settings"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Notif_Registrar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RequestList_Registrar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Pending_Registrar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Claimed_Registrar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Reserved_Registrar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Settings_Registrar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Notif_Cashier"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Payment_Cashier"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Settings_Cashier"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AddUser_Registrar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Notif_User"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".List_User"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ChangeEmail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Image"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".Email"></activity>
+    </application>
+
+</manifest>

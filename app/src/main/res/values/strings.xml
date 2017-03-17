@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Student Record Request</string>
+    <string-array name="status">
+        <item>Alumni</item>
+        <item>Student</item>
+        <item>Drop Out</item>
+        <item>N/A</item>
+    </string-array>
+
+    <string-array name="status1">
+        <item>TOR Transcript of Records</item>
+        <item>Certificate of Good Moral</item>
+        <item> Honorable Dismissal/Transfer Credential</item>
+        <item> Temporary Grade Sheet</item>
+        <item> Documentary Stamp for Transfer</item>
+        <item> Documentary Stamp for Employment</item>
+        <item> Re-issuance of Statement of Account</item>
+        <item>Re-issuance of Exam Permit/Study Load</item>
+        <item>Re-issuance of Clearance</item>
+        <item>IHE/DCS/ADCS Local Diploma</item>
+        <item> Certificate of Attendance</item>
+        <item> Certificate of Enrollment</item>
+    </string-array>
+
+    <string-array name="status2">
+        <item>Registrar</item>
+        <item>Cashier</item>
+        <item>User</item>
+    </string-array>
+    <string-array name="status3">
+        <item>Cash</item>
+        <item>Hand Over</item>
+    </string-array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_log_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.john.studentrecordrequest.LogIn"
+    android:weightSum="1"
+    android:background="@drawable/back">
+
+    <TextView
+        android:text="Please enter your current email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgot"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|italic"
+        android:fontFamily="casual" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/currentemail"
+        android:hint="ex: jaekwalen@gmail.com"
+        android:typeface="monospace"
+        android:layout_marginTop="34dp"
+        android:textSize="20sp"
+        android:textColorLink="#323232"
+        android:textColorHint="@android:color/black"
+        android:fontFamily="casual"
+        android:textStyle="normal|italic"
+        android:background="@drawable/textfield"
+        android:layout_weight=".09" />
+
+
+    <Button
+        android:text="Send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendit"
+        android:layout_weight="0.03"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold|italic"
+        />
+
+
+</LinearLayout>
