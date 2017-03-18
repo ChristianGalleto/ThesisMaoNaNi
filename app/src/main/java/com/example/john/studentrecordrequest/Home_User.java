@@ -166,6 +166,7 @@ public class Home_User extends AppCompatActivity {
 
 
                     Intent SetIntent = new Intent(Home_User.this, Profile.class);
+
                 SetIntent.putExtra("firstname", firstname );
                 SetIntent.putExtra("middlename", middlename );
                 SetIntent.putExtra("lastname", lastname );
